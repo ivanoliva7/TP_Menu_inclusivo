@@ -30,7 +30,7 @@ Regularidad:
 |CRUD simple|1. CRUD Usuario <br>2. CRUD Local <br>3. CRUD Preferencia|
 |CRUD dependiente|1. CRUD Comida {depende de} CRUD Local <br>2. CRUD Precio {depende de} CRUD Comida|
 |Listado<br>+<br>detalle| 1. Listado de Menu filtrado por preferencias y zona => detalle muestra el conjunto de comidas de un local <br> 2. Listado de reservas filtrado por fecha, hora y local, y muestra usuario, local, estado, nombre del cliente, cantidad de personas => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Creacion de local <br>2. Realizar el check-in de una reserva|
+|CUU/Epic|1. Creacion de local <br>2. Añadir comida a restaurante|
 
 
 Adicionales para Aprobación
@@ -47,7 +47,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados ||
+|CUU/Epic||
+|Otros||
 
