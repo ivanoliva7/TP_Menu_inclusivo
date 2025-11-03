@@ -16,9 +16,7 @@
 Menú-Inclusivo es una plataforma web diseñada para conectar a las personas con necesidades alimenticias específicas con restaurantes que ofrecen opciones adaptadas a sus dietas. Para poder realizar pedidos en línea a través de la plataforma, solo necesitás crear tu usuario. Esto nos permite personalizar tu experiencia, guardar tus preferencias y mostrarte recomendaciones acordes a tus necesidades.
 
 ### Modelo
-![imagen del modelo]()
-
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+![imagen del modelo](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&dark=1#G1x7_W2Vw1Fn_DQx3_XgTAlgzsvDnVGxDb)
 
 ## Alcance Funcional 
 
@@ -29,17 +27,18 @@ Menú-Inclusivo es una plataforma web diseñada para conectar a las personas con
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD usuario <br>2. CRUD local <br>3. CRUD preferencia|
+|CRUD simple|1. CRUD Usuario <br>2. CRUD Local <br>3. CRUD Preferencia|
 |CRUD dependiente|1. CRUD Comida {depende de} CRUD Local <br>2. CRUD Precio {depende de} CRUD Comida|
-|Listado<br>+<br>detalle| 1. Listado de Menu filtrado por preferencias y zona => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|Listado<br>+<br>detalle| 1. Listado de Menu filtrado por preferencias y zona => detalle muestra el conjunto de comidas de un local <br> 2. Listado de reservas filtrado por fecha, hora y local, y muestra usuario, local, estado, nombre del cliente, cantidad de personas => detalle muestra datos completos de la reserva y del cliente|
+|CUU/Epic|1. Creacion de local <br>2. Realizar el check-in de una reserva|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Tipo Comida|
+|CRUD dependiente|1. CRUD Reseña {depende de} CRUD Usuario y CRUD Local|
+|CUU/Epic|1. Reservar en local <br>2. Realizar una reseña|
 
 
 ### Alcance Adicional Voluntario
