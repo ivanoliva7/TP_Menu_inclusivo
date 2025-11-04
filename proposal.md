@@ -36,7 +36,7 @@ Adicionales para Aprobación
 |:-|:-|
 |CRUD |1. CRUD Tipo Comida|
 |CRUD dependiente|1. CRUD Reseña {depende de} CRUD Usuario y CRUD Local|
-|CUU/Epic|1. Reservar en local <br>2. Realizar una reseña|
+|CUU/Epic|1. <br>2. |
 
 
 ### Alcance Adicional Voluntario
