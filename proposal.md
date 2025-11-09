@@ -12,7 +12,7 @@
 
 ## Menú-Inclusivo
 ### Descripción
-Menú-Inclusivo es una plataforma web diseñada para conectar a las personas con necesidades alimenticias específicas con restaurantes que ofrecen opciones adaptadas a sus dietas. Para poder realizar pedidos en línea a través de la plataforma, solo necesitás crear tu usuario. Esto nos permite personalizar tu experiencia, guardar tus preferencias y mostrarte recomendaciones acordes a tus necesidades.
+Menú-Inclusivo es una plataforma web diseñada para conectar a las personas con necesidades alimenticias específicas con restaurantes que ofrecen opciones adaptadas a sus dietas. Para poder realizar reservas en línea a través de la plataforma, solo necesitás crear tu usuario. Esto nos permite personalizar tu experiencia, guardar tus preferencias y mostrarte recomendaciones acordes a tus necesidades.
 
 ### Modelo
 ![imagen del modelo](https://github.com/user-attachments/assets/6d37590d-1302-44d7-a34c-e5a6e036d589)
@@ -34,8 +34,8 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Comida|
-|CRUD dependiente|1. CRUD Reseña {depende de} CRUD Usuario y CRUD Local|
+|CRUD ||
+|CRUD dependiente||
 |CUU/Epic|1. <br>2. |
 
 
