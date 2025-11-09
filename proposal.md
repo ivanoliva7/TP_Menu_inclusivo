@@ -28,7 +28,7 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD Usuario <br>2. CRUD Local <br>3. CRUD Preferencia|
 |CRUD dependiente|1. CRUD Comida {depende de} CRUD Local <br>2. CRUD Precio {depende de} CRUD Comida|
-|Listado<br>+<br>detalle| 1. Listado de Menu filtrado por local=> detalle muestra el conjunto de comidas de un local <br> 2. Listado de locales filtrado por preferencias => detalle muestra datos completos del local
+|Listado<br>+<br>detalle| 1. Listado de Menú filtrado por local => detalle muestra el conjunto de comidas de un local <br> Listado de locales filtrado por preferencias => detalle muestra datos completos del local|
 |CUU/Epic|1. Personalizar usuario <br>2. Gestionar restaurante|
 
 
@@ -37,7 +37,7 @@ Adicionales para Aprobación
 |:-|:-|
 |CRUD ||
 |CRUD dependiente||
-|CUU/Epic|1. <br>2. |
+|CUU/Epic||
 
 
 ### Alcance Adicional Voluntario
