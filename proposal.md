@@ -15,7 +15,8 @@
 Menú-Inclusivo es una plataforma web diseñada para conectar a las personas con necesidades alimenticias específicas con restaurantes que ofrecen opciones adaptadas a sus dietas. Para poder realizar reservas en línea a través de la plataforma, solo necesitás crear tu usuario. Esto nos permite personalizar tu experiencia, guardar tus preferencias y mostrarte recomendaciones acordes a tus necesidades.
 
 ### Modelo
-![imagen del modelo](https://github.com/user-attachments/assets/6d37590d-1302-44d7-a34c-e5a6e036d589)
+![imagen del modelo](https://github.com/user-attachments/assets/d4f143ea-a32a-4602-854f-eb8af59ed9e3
+)
 
 ## Alcance Funcional 
 
