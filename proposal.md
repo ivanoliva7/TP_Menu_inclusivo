@@ -7,8 +7,8 @@
 * 53009 - Oliva, Ivan
 
 ### Repositorios
-* [frontend app](Frontend)
-* [backend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app](https://github.com/ivanoliva7/Codigo-Menu-Inclusivo/tree/main/Frontend)
+* [backend app](https://github.com/ivanoliva7/Codigo-Menu-Inclusivo/tree/main/Backend)
 
 ## Menú-Inclusivo
 ### Descripción
